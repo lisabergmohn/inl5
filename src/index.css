@@ -1,0 +1,108 @@
+body {
+  background-color: black;
+}
+
+.database-container {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1 {
+  font-size: 4rem;
+  color: yellow;
+}
+
+button {
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.add-button {
+  background-color: transparent;
+  color: yellow;
+  border: 2px solid yellow;
+  margin-top: 10px;
+}
+
+.add-button:hover {
+  background-color: yellow;
+  color: black;
+}
+
+.edit-button {
+  background-color: transparent;
+  color: yellow;
+  border: 2px solid yellow;
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
+
+.edit-button:hover {
+  background-color: yellow;
+  color: black;
+}
+
+.clear-button {
+  background-color: transparent;
+  color: yellow;
+  border: 2px solid yellow;
+  padding: 10px 20px;
+  font-size: 1.7rem;
+  margin-left: 10px;
+}
+
+.clear-button:hover {
+  background-color: yellow;
+  color: black;
+}
+
+.delete-button {
+  background-color: transparent;
+  color: yellow;
+  border: 2px solid yellow;
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
+
+.delete-button:hover {
+  background-color: yellow;
+  color: black;
+}
+
+input[type="text"],
+input[type="number"] {
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid yellow;
+  border-radius: 5px;
+  color: hsl(0, 4%, 5%);
+}
+
+ol {
+  padding: 0;
+}
+
+li {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 3px solid yellow;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  color: yellow;
+  flex: 1;
+}
